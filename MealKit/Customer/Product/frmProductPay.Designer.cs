@@ -1,4 +1,4 @@
-﻿namespace MealKit
+﻿namespace MealKit.Customer.Product.CustomerOrder
 {
     partial class frmProductPay
     {

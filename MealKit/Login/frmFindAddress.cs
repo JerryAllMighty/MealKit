@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MealKit
+namespace MealKit.Customer.Product.CustomerOrder
 {
     public partial class frmFindAddress : Form
     {

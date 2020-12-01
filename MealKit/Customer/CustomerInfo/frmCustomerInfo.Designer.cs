@@ -1,4 +1,4 @@
-﻿namespace MealKit.Customer
+﻿namespace MealKit.Customer.Product.CustomerOrder.Customer
 {
     partial class frmCustomerInfo
     {

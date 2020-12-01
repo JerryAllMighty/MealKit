@@ -1,6 +1,6 @@
-﻿namespace MealKit
+﻿namespace MealKit.Customer.Product.CustomerOrder.Customer.Product.CustomerOrder
 {
-    partial class frmCustomerOrder
+    partial class frmOrderHealthy
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "frmCustomerOrder";
+            this.Text = "frmOrderHealthy";
         }
 
         #endregion

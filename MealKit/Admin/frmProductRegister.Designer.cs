@@ -1,4 +1,4 @@
-﻿namespace MealKit.Admin
+﻿namespace MealKit.Customer.Product.CustomerOrder.Admin
 {
     partial class frmProductRegister
     {

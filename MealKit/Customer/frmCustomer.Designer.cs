@@ -1,4 +1,4 @@
-﻿namespace MealKit
+﻿namespace MealKit.Customer.Product.CustomerOrder
 {
     partial class frmCustomer
     {
@@ -50,12 +50,14 @@
             this.고객ToolStripMenuItem.Name = "고객ToolStripMenuItem";
             this.고객ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.고객ToolStripMenuItem.Text = "고객";
+            this.고객ToolStripMenuItem.Click += new System.EventHandler(this.고객ToolStripMenuItem_Click);
             // 
             // 주문ToolStripMenuItem
             // 
             this.주문ToolStripMenuItem.Name = "주문ToolStripMenuItem";
             this.주문ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.주문ToolStripMenuItem.Text = "주문";
+            this.주문ToolStripMenuItem.Click += new System.EventHandler(this.주문ToolStripMenuItem_Click);
             // 
             // frmCustomer
             // 

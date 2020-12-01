@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MealKit
-{    
-    public partial class frmCustomerOrder : Form
+namespace MealKit.Customer.Product.CustomerOrder.Customer.Product.CustomerOrder
+{
+    public partial class frmOrderChinese : Form
     {
-        public frmCustomerOrder()
+        public frmOrderChinese()
         {
             InitializeComponent();
         }

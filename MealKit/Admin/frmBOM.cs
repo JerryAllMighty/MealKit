@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MealKit.Admin
+namespace MealKit.Customer.Product.CustomerOrder.Admin
 {
     public partial class frmBOM : Form
     {
