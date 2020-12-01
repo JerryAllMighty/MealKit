@@ -124,6 +124,12 @@
     <Compile Include="Customer\CustomerInfo\frmCustomerInfo.Designer.cs">
       <DependentUpon>frmCustomerInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\ProductInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ProductInfo.designer.cs">
+      <DependentUpon>ProductInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer\Product\CustomerOrder\frmCustomerOrder.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -237,6 +243,9 @@
     <EmbeddedResource Include="Admin\frmAdmin.resx">
       <DependentUpon>frmAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ProductInfo.resx">
+      <DependentUpon>ProductInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customer\frmCustomer.resx">
       <DependentUpon>frmCustomer.cs</DependentUpon>
     </EmbeddedResource>
@@ -245,6 +254,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\Product\CustomerOrder\frmCustomerOrder.resx">
       <DependentUpon>frmCustomerOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Product\CustomerOrder\frmOrderBest.resx">
+      <DependentUpon>frmOrderBest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
